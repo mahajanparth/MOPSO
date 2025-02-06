@@ -1,8 +1,8 @@
 
-# UAV Swarm Coordination and Optimization System
+# A Particle Swarm Optimization-Based Cooperation Method for Multiple-Target Search by Swarm UAVs in Unknown Environments
 
 ## Overview
-This repository contains an advanced swarm UAV coordination system designed for multi-target search, optimized payload drops, and inter-UAV collision avoidance. The system is based on a **Multi-Target Particle Swarm Optimization (MTPSO)** approach, inspired by Particle Swarm Optimization (PSO), to enable decentralized cooperative UAV control.
+This repository contains a swarm UAV coordination system designed for multi-target search, optimized payload drops, and inter-UAV collision avoidance. The system is based on a **Multi-Target Particle Swarm Optimization (MTPSO)** approach, inspired by Particle Swarm Optimization (PSO), to enable decentralized cooperative UAV control.
 
 The swarm UAVs utilize onboard sensors and real-time data sharing to dynamically adjust flight paths, detect targets, and deploy payloads efficiently in unknown environments.
 
@@ -70,19 +70,19 @@ pip install dronekit pymavlink numpy scipy shapely
 ### Running the System
 1. **Start the GCS Interface:**
    ```bash
-   python3 GUI/GUI.py
+   python3 CORE_GUI_CODE/GUI.py
    ```
 2. **Launch Swarm Control:**
    ```bash
-   python3 new_on_uav/Swarm2.py
+   python3 CORE_UAV_CODE/Swarm2.py
    ```
 3. **Monitor Video Feeds:**
    ```bash
-   python3 VISION/VideoGrabber.py
+   python3 CORE_UAV_CODE/VISION/VideoGrabber.py
    ```
 4. **Emergency Landing (if required):**
    ```bash
-   python3 new_on_uav/emergency_landing.py
+   python3 CORE_UAV_CODDE/emergency_landing.py
    ```
 
 ---
