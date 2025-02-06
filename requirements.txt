@@ -1,0 +1,25 @@
+PySimpleGUI
+dronekit
+pymavlink
+numpy
+scipy
+shapely
+geopy
+matplotlib
+opencv-python  # cv2
+skimage
+paramiko
+scp
+netifaces
+pythonwifi
+multiprocessing
+pickle
+re
+random
+operator
+ctypes
+signal
+struct
+datetime
+rumrunner
+
