@@ -1,6 +1,16 @@
 
 # A Particle Swarm Optimization-Based Cooperation Method for Multiple-Target Search by Swarm UAVs in Unknown Environments
 
+<video src="https://www.youtube.com/watch?v=dCsL4g-YQkY&t=2s" controls>
+  Sorry, your browser doesn’t support embedded videos.
+</video>
+
+Paper Link : 
+https://www.researchgate.net/publication/350149777_A_Particle_Swarm_Optimization-Based_Cooperation_Method_for_Multiple-Target_Search_by_Swarm_UAVs_in_Unknown_Environments
+
+Citation :
+Gupta, Aniket & Virmani, Aman & Mahajan, Parth & Nallanthigal, Raghava. (2021). A Particle Swarm Optimization-Based Cooperation Method for Multiple-Target Search by Swarm UAVs in Unknown Environments. 95-100. 10.1109/ICARA51699.2021.9376529. 
+
 ## Overview
 This repository contains a swarm UAV coordination system designed for multi-target search, optimized payload drops, and inter-UAV collision avoidance. The system is based on a **Multi-Target Particle Swarm Optimization (MTPSO)** approach, inspired by Particle Swarm Optimization (PSO), to enable decentralized cooperative UAV control.
 
